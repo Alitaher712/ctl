@@ -1,4 +1,14 @@
-owner: "glouw"
+owner: "Ali"
+language: c
+target_language: rust
+owner: "ctl-project"
 name: "ctl"
-tag: "435a2e6ba6cc4222e890b4c5993a750d29cb04e3"
-original_run_tests_cmd: "make test"
+tag_or_commit_hash: "latest"
+repo_url: "https://github.com/example/ctl.git"
+original_run_tests_cmd: "cd original-repo/ctl && make test"
+migrated_run_tests_cmd: "cd migrated-repo/hello_world && cargo test"
+migrated_tests_dir: "migrated-repo/hello_world/tests"
+original_project_path: "original-repo/ctl"
+migrated_project_path: "migrated-repo/hello_world"
+description: "Migration from CTL (C Template Library) to Rust"
+migration_date: "2025-07-03"
